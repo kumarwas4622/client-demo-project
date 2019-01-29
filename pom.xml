@@ -31,15 +31,15 @@
 	</dependencies>
 	<distributionManagement>
         <repository>
-            <id>nexus</id>
-            <name>Internal Releases</name>
-            <url>http://18.216.193.158:8081/nexus/content/repositories/releases/</url>
+            <id>Release</id>
+            <name>Release</name>
+            <url>http://18.223.44.244:8081/repository/Release/</url>
 			<uniqueVersion>false</uniqueVersion>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
-            <name>Internal Snapshot Releases</name>
-                     <url>http://18.216.193.158:8081/nexus/content/repositories/snapshots/</url>
+            <id>SnapshotId</id>
+            <name>SnapshotId</name>
+                     <url>http://18.223.44.244:8081/repository/SnapshotId/</url>
 			<uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
